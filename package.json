@@ -12,5 +12,8 @@
     "yunpeng"
   ],
   "author": "m2mbob",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.3.0"
+  }
 }

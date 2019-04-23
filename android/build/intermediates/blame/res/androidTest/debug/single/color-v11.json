@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/bjqingniujj/Desktop/ZJWorkSpace/ReactNative_Visual_Studio_Code/WYXRN/node_modules/react-native-yunpeng-alipay/android/build/intermediates/res/merged/androidTest/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/bjqingniujj/Desktop/ZJWorkSpace/ReactNative_Visual_Studio_Code/WYXRN/node_modules/react-native-yunpeng-alipay/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/bjqingniujj/Desktop/ZJWorkSpace/ReactNative_Visual_Studio_Code/WYXRN/node_modules/react-native-yunpeng-alipay/android/build/intermediates/res/merged/androidTest/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/bjqingniujj/Desktop/ZJWorkSpace/ReactNative_Visual_Studio_Code/WYXRN/node_modules/react-native-yunpeng-alipay/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]
