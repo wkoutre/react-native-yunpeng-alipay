@@ -18,22 +18,22 @@ rnpm link react-native-yunpeng-alipay
 
 ### Manually
 
-* android/settings.gradle
+- android/settings.gradle
 
 ```
 include ':react-native-yunpeng-alipay'
 project(':react-native-yunpeng-alipay').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-yunpeng-alipay/android')
 ```
 
-* android/app/build.gradle
+- android/app/build.gradle
 
 ```
 dependencies {
-    compile project(':react-native-yunpeng-alipay')
+    implementation project(':react-native-yunpeng-alipay')
 }
 ```
 
-* register module (in MainActivity.java)
+- register module (in MainActivity.java)
 
 ```java
 ...
@@ -68,14 +68,15 @@ rnpm link react-native-yunpeng-alipay
 
 ### Config
 
-* Added the following libraries to your "Link Binary With Libraries":
-  * [x] CoreMotion.framework
-  * [x] CoreTelephony.framework
-  * [x] libc++
-  * [x] libz
-  
-* add `URL Schema` as your app id for `URL type` in `Targets - info`
-* Make sure you have these code in AppDelegate.m to enable callback
+- Added the following libraries to your "Link Binary With Libraries":
+
+  - [x] CoreMotion.framework
+  - [x] CoreTelephony.framework
+  - [x] libc++
+  - [x] libz
+
+- add `URL Schema` as your app id for `URL type` in `Targets - info`
+- Make sure you have these code in AppDelegate.m to enable callback
 
 ```objective_c
 #import "AlipayModule.h"
@@ -93,15 +94,16 @@ rnpm link react-native-yunpeng-alipay
 ### General Usage
 
 ```javascript
-import Alipay from 'react-native-yunpeng-alipay';
-
+import Alipay from "react-native-yunpeng-alipay";
 ```
 
 ```javascript
-Alipay.pay("signed pay info string").then(function(data){
-                    console.log(data);
-                }, function (err) {
-                    console.log(err);
-                });
-
+Alipay.pay("signed pay info string").then(
+  function(data) {
+    console.log(data);
+  },
+  function(err) {
+    console.log(err);
+  }
+);
 ```
